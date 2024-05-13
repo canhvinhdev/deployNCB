@@ -26,6 +26,7 @@ Lệnh sudo mv –R /u01/NEWUI/vn/ /u01/NEWUI/vn.bkyyyymmdd
 - Bước 3: sudo chmod –R 755 /u01/NEWUI/
 
 5.2	Hệ thống Service Integration (10.1.62.56)
+
 a,	Core service
 - Cập nhật file jar nếu có :
 Bước 1: Backup file jar
