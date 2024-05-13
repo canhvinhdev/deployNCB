@@ -26,7 +26,7 @@ Lệnh sudo mv –R /u01/NEWUI/vn/ /u01/NEWUI/vn.bkyyyymmdd
 - Bước 3: sudo chmod –R 755 /u01/NEWUI/
 
 5.2	Hệ thống Service Integration (10.1.62.56)
-	Core service
+a	Core service
 - Cập nhật file jar nếu có :
 Bước 1: Backup file jar
 sudo mv /u01/fdp-core-service/fdp-core-service-1.0.0.jar /u01/fdp-core-service/ fdp-core-service-1.0.0.jar.bkyyyymmdd
@@ -37,7 +37,7 @@ sudo mv /u01/config/FdpCoreConfig.properties /u01/config/FdpCoreConfig.propertie
 	Bước 2: Copy file FdpCoreConfig.properties  vào thư mục                  
 /u01/config/ FdpCoreConfig.properties
 - Build lại service: sudo sh /u01/buildCore.sh
-	Bank service
+b	Bank service
   - Cập nhật file jar nếu có :
 Bước 1: Backup file jar
 sudo mv /u01/cis-bank-service/cis-bank-service-1.0.0.jar /u01/cis-bank-service/ cis-bank-service-1.0.0.jar.bkyyyymmdd
@@ -49,7 +49,7 @@ sudo mv /u01/config/FdpBankConfig.properties /u01/config/FdpBankConfig.propertie
 /u01/config/FdpBankConfig.properties
 - Build lại service: sudo sh /u01/buildBank.sh
 
-	ICredit service
+c	ICredit service
   - Cập nhật file jar nếu có :
 Bước 1: Backup file jar
 sudo mv /u01/fdp-icredit-service/fdp-icredit-service-1.0.0.jar /u01/fdp-icredit-service/fdp-icredit-service-1.0.0.jar.bkyyyymmdd
@@ -61,7 +61,7 @@ sudo mv /u01/config/FdpIcreditConfig.properties /u01/config/FdpIcreditConfig.pro
 /u01/config/ FdpIcreditConfig.properties
 - Build lại service: sudo sh /u01/buildicredit.sh
 
-	CIC service
+d	CIC service
   - Cập nhật file jar nếu có :
 Bước 1: Backup file jar
 sudo mv /u01/fdp-cic-service/fdp-cic-service-1.0.0.jar /u01/fdp-cic-service/fdp-cic-service-1.0.0.jar.bkyyyymmdd
@@ -74,7 +74,7 @@ sudo mv /u01/config/FdpCICConfig.properties /u01/config/FdpCICConfig.properties.
 - Build lại service: sudo sh /u01/buildiCIC.sh
 
 
-	PCB service
+e	PCB service
  - Cập nhật file jar nếu có :
 Bước 1: Backup file jar
 sudo mv /u01/fdp-pcb-service/fdp-pcb-service-1.0.0.jar /u01/fdp-pcb-service/fdp-pcb-service-1.0.0.jar.bkyyyymmdd
